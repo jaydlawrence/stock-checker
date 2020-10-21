@@ -1,0 +1,27 @@
+{
+  "name": "stock-checker",
+  "version": "1.0.0",
+  "description": "A node package to check a list of websites for changes in stock when called",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jayd Lawrence",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^86.0.0",
+    "pushover-notifications": "^1.2.2",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  },
+  "bin": {
+    "check": "./bin/index.js"
+  },
+  "devDependencies": {
+    "eslint": "7.2.0",
+    "eslint-config-airbnb": "18.2.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-jsx-a11y": "^6.3.0",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "4.0.0"
+  }
+}
