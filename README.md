@@ -21,10 +21,38 @@ Fill out the details for the pages that you want to monitor:
 
 Copy `config.json.template` to `config.json` and fill out the required fields.
 
-This project uses [pushover.net](https://pushover.net/) for notifications.
+See the notifications section next for info on how to set up your preferred notification option.
 
-- apiKey: pushover app key
-- userKey: pushover user token
+### Notifications
+
+This  package has 2 options for notifications when a difference is found on a configured site.
+
+#### Pushover
+
+This project has the option to use [pushover.net](https://pushover.net/) for notifications.
+
+To use this option, fill out the following options in the `config.json`.
+
+- pushoverApiKey: pushover app key
+- pushoverUserKey: pushover user token
+- pushoverEnabled: set this to `true` to enable pushover notifications
+
+#### Gmail
+
+This project also has the option of using [Gmail](https://mail.google.com/) for notifications.
+
+To enable Gmail support, fill out the following options in the `config.json`.
+
+- gmailUser: the gmail address that you want to send emails from
+- gmailPassword: the password for this gmail account, see note below about making App Passwords
+- gmailTo: the email address to send these notifications to, this can be the same as the from address
+- gmailEnabled: set this to `true` to enable gmail notifications
+
+*Note:* It is recommended and in some cases required to create an App Password for your gmail account to use for this project.
+
+Here is an article from Google about how to set that up:
+
+https://support.google.com/accounts/answer/185833
 
 ## Testing
 

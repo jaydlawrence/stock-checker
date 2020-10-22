@@ -908,6 +908,14 @@ globby@^10.0.1:
     merge2 "^1.2.3"
     slash "^3.0.0"
 
+gmail-send@^1.8.10:
+  version "1.8.10"
+  resolved "https://registry.yarnpkg.com/gmail-send/-/gmail-send-1.8.10.tgz#e228f3680590ec090eb7d0de8041494f26843b39"
+  integrity sha512-QMpWwzeA64U69HzOEzI37UNc73xXkhTg8LuqsfKX9W7LjiQY3yRvViVn7ZhuJWLTV4136vsLJf2sXiZKmdykbw==
+  dependencies:
+    lodash "^4.17.15"
+    nodemailer "^6.3.0"
+
 graceful-fs@^4.1.2, graceful-fs@^4.2.2:
   version "4.2.4"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.4.tgz#2256bde14d3632958c465ebc96dc467ca07a29fb"
@@ -1242,7 +1250,7 @@ locate-path@^2.0.0:
     p-locate "^2.0.0"
     path-exists "^3.0.0"
 
-lodash@^4.17.14, lodash@^4.17.19:
+lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19:
   version "4.17.20"
   resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
   integrity sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
@@ -1315,6 +1323,11 @@ natural-compare@^1.4.0:
   version "1.4.0"
   resolved "https://registry.npmjs.org/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
+
+nodemailer@^6.3.0:
+  version "6.4.14"
+  resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-6.4.14.tgz#2ffb160b63ff0c15a979da75e1f82af85433d2a3"
+  integrity sha512-0AQHOOT+nRAOK6QnksNaK7+5vjviVvEBzmZytKU7XSA+Vze2NLykTx/05ti1uJgXFTWrMq08u3j3x4r4OE6PAA==
 
 normalize-package-data@^2.3.2:
   version "2.5.0"

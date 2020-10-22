@@ -1,4 +1,9 @@
 {
-  "apiKey": "",
-  "userKey": ""
+  "pushoverApiKey": "",
+  "pushoverUserKey": "",
+  "pushoverEnabled": false,
+  "gmailUser": "",
+  "gmailPassword": "",
+  "gmailTo": "",
+  "gmailEnabled": false
 }
