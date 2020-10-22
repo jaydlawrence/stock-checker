@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+
+export PATH=<replace_with_path_to_node_bin_dir> && check-stock

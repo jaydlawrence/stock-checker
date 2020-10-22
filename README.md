@@ -40,3 +40,32 @@ run with
 ```
 npx check-stock
 ```
+
+## Installing and running
+
+To run this with a cron, the script needs to be installed:
+
+```
+npm install -g .
+```
+
+This should install it near your node path
+
+eg. `~/.nvm/versions/node/v14.10.0/bin/check-stock`
+
+Then copy the `run.sh.template` to `run.sh`
+
+replace the path with the absolute paths of your npm bin directory.
+
+Then you can add it to your cron tab.
+
+```
+crontab -e
+```
+
+Then add something like the following:
+
+```
+# run script every 15 minutes
+*/15 * * * * /<replace_with_path_to_project>/stock-checker/run.sh
+```
