@@ -13,7 +13,10 @@ chrome.setDefaultService(new chrome.ServiceBuilder(chromedriver.path).build());
     .withCapabilities(webdriver.Capabilities.chrome())
     .build();
   try {
-    await Promise.all(sites.map(async (site) => checkSite(site, driver)));
+    for (let index = 0; index < sites.length; index += 1) {
+      // making it wait for each loop on purpose to let previous chrome tab finish
+      await checkSite(sites[index], driver);
+    }
   } finally {
     await driver.quit();
   }

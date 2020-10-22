@@ -7,13 +7,13 @@ const push = new Push({
 
 });
 
-const notify = async ({ value, site }) => {
+const notify = async ({ site, message }) => {
   const {
-    url, expected, description,
+    url, description,
   } = site;
   await push.send(
     {
-      message: `${description} was expecting "${expected}" but got "${value}"`,
+      message,
       title: `Stock Change - ${description}`,
       url,
       priority: 1,

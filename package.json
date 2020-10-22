@@ -14,7 +14,7 @@
     "selenium-webdriver": "^4.0.0-alpha.7"
   },
   "bin": {
-    "check": "./bin/index.js"
+    "check-stock": "./bin/index.js"
   },
   "devDependencies": {
     "eslint": "7.2.0",

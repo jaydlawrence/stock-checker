@@ -15,6 +15,7 @@ Fill out the details for the pages that you want to monitor:
 - xPath: xpath for content on page to monitor
 - expected: expected text value of content to be compared against
 - description: human readable description to be used in notifications
+- wait: [Optional] this is used to wait longer on sites that take a while to async load in their stock data, like Best Buy
 
 ### Config
 
@@ -37,5 +38,5 @@ This makes the script available locally as an executable
 run with
 
 ```
-npx check
+npx check-stock
 ```
