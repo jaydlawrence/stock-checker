@@ -17,6 +17,27 @@ Fill out the details for the pages that you want to monitor:
 - description: human readable description to be used in notifications
 - wait: [Optional] this is used to wait longer on sites that take a while to async load in their stock data, like Best Buy
 
+To add multiple sites to check, just add multiple entries.
+
+For example:
+
+```
+[
+  {
+    "url": "",
+    "xPath": "",
+    "expected": "",
+    "description": ""
+  },
+  {
+    "url": "",
+    "xPath": "",
+    "expected": "",
+    "description": ""
+  }
+]
+```
+
 ### Config
 
 Copy `config.json.template` to `config.json` and fill out the required fields.
