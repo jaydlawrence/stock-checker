@@ -2,6 +2,10 @@
 
 A node script to run on a cron to check for online stock
 
+I wrote a [blog post](https://jaydlawrence.dev/check-if-items-are-in-stock-online-for-free/) about the background to this project.
+
+https://jaydlawrence.dev/check-if-items-are-in-stock-online-for-free/
+
 ## Setup
 
 ### Sites
