@@ -110,7 +110,7 @@ Then copy the `run.sh.template` to `run.sh`
 
 replace the path with the absolute paths of your npm bin directory.
 
-Then you can add it to your cron tab.
+Then you can add it to your cron tab if you are on a unix environment.
 
 ```
 crontab -e
@@ -122,3 +122,7 @@ Then add something like the following:
 # run script every 15 minutes
 */15 * * * * /<replace_with_path_to_project>/stock-checker/run.sh
 ```
+
+If you are on Windows, something like Windows Task Scheduler should be able to help.
+
+https://www.windowscentral.com/how-create-automated-task-using-task-scheduler-windows-10
