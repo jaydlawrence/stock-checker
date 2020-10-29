@@ -1,0 +1,207 @@
+[
+  {
+    "url": "https://www.newegg.ca/asus-geforce-rtx-3080-tuf-rtx3080-10g-gaming/p/N82E16814126453",
+    "xPath": "//*[@id=\"app\"]/div[2]/div[1]/div/div/div[1]/div[1]/div[1]",
+    "expected": "OUT OF STOCK",
+    "description": "New Egg - ASUS RTX3080 TUF"
+  },
+  {
+    "url": "https://www.newegg.ca/asus-geforce-rtx-3080-tuf-rtx3080-o10g-gaming/p/N82E16814126452",
+    "xPath": "//*[@id=\"app\"]/div[2]/div[1]/div/div/div[1]/div[1]/div[1]",
+    "expected": "OUT OF STOCK",
+    "description": "New Egg - ASUS RTX3080 TUF OC"
+  },
+  {
+    "url": "https://www.newegg.ca/evga-geforce-rtx-3080-10g-p5-3883-kr/p/N82E16814487521",
+    "xPath": "//*[@id=\"app\"]/div[2]/div[1]/div/div/div[1]/div[1]/div[1]",
+    "expected": "OUT OF STOCK",
+    "description": "New Egg - EVGA RTX3080 XC3 GAMING"
+  },
+  {
+    "url": "https://www.newegg.ca/msi-geforce-rtx-3080-rtx-3080-gaming-x-trio-10g/p/N82E16814137597",
+    "xPath": "//*[@id=\"app\"]/div[2]/div[1]/div/div/div[1]/div[1]/div[1]",
+    "expected": "OUT OF STOCK",
+    "description": "New Egg - MSI RTX3080 GAMING X TRIO"
+  },
+  {
+    "url": "https://www.newegg.ca/msi-geforce-rtx-3080-rtx-3080-ventus-3x-10g-oc/p/N82E16814137598",
+    "xPath": "//*[@id=\"app\"]/div[2]/div[1]/div/div/div[1]/div[1]/div[1]",
+    "expected": "OUT OF STOCK",
+    "description": "New Egg - MSI RTX3080 VENTUS 3X OC"
+  },
+  {
+    "url": "https://www.newegg.ca/msi-geforce-rtx-3080-rtx-3080-ventus-3x-10g/p/N82E16814137600",
+    "xPath": "//*[@id=\"app\"]/div[2]/div[1]/div/div/div[1]/div[1]/div[1]",
+    "expected": "OUT OF STOCK",
+    "description": "New Egg - MSI RTX3080 VENTUS 3X"
+  },
+  {
+    "url": "https://www.newegg.ca/evga-geforce-rtx-3080-10g-p5-3895-kr/p/N82E16814487519",
+    "xPath": "//*[@id=\"app\"]/div[2]/div[1]/div/div/div[1]/div[1]/div[1]",
+    "expected": "OUT OF STOCK",
+    "description": "New Egg - EVGA RTX3080 FTW3 GAMING"
+  },
+  {
+    "url": "https://www.newegg.ca/evga-geforce-rtx-3080-10g-p5-3897-kr/p/N82E16814487518",
+    "xPath": "//*[@id=\"app\"]/div[2]/div[1]/div/div/div[1]/div[1]/div[1]",
+    "expected": "OUT OF STOCK",
+    "description": "New Egg - EVGA RTX3080 FTW3 ULTRA GAMING"
+  },
+  {
+    "url": "https://www.newegg.ca/evga-geforce-rtx-3080-10g-p5-3881-kr/p/N82E16814487522",
+    "xPath": "//*[@id=\"app\"]/div[2]/div[1]/div/div/div[1]/div[1]/div[1]",
+    "expected": "OUT OF STOCK",
+    "description": "New Egg - EVGA RTX3080 XC3 BLACK GAMING"
+  },
+  {
+    "url": "https://www.bhphotovideo.com/c/product/1593649-REG/asus_tuf_rtx3080_10g_gaming_tuf_gaming_geforce_rtx.html/DFF/d10-v21-t1-x1071373/SID/103810X1560435Xe787bcce40168e0f3cbf6aa26dda7db3",
+    "xPath": "//*[@id=\"bh-app\"]/section/div/div[2]/div[4]/div/div[2]/div/div/div[*]/div[1]/span",
+    "expected": "New Item - Coming Soon",
+    "description": "B & H Photo - ASUS RTX3080 TUF",
+    "wait": 3
+  },
+  {
+    "url": "https://www.bhphotovideo.com/c/product/1593650-REG/asus_tuf_rtx3080_o10g_gaming_tuf_gaming_geforce_rtx.html/DFF/d10-v21-t1-x1071374/SID/103810X1560435X757058120c2475341fda7e10d82c8f85",
+    "xPath": "//*[@id=\"bh-app\"]/section/div/div[2]/div[4]/div/div[2]/div/div/div[*]/div[1]/span",
+    "expected": "New Item - Coming Soon",
+    "description": "B & H Photo - ASUS RTX3080 TUF OC",
+    "wait": 3
+  },
+  {
+    "url": "https://www.bhphotovideo.com/c/product/1593646-REG/msi_geforce_rtx_3080_ventus.html/DFF/d10-v21-t1-x1071370/SID/103810X1560435X35ea38a594942af5aebdcf528356cc12",
+    "xPath": "//*[@id=\"bh-app\"]/section/div/div[2]/div[4]/div/div[2]/div/div/div[*]/div[1]/span",
+    "expected": "New Item - Coming Soon",
+    "description": "B & H Photo - MSI RTX3080 VENTUS 3X",
+    "wait": 3
+  },
+  {
+    "url": "https://www.amazon.ca/dp/B08HHDP9DW",
+    "xPath": "//*[@id=\"availability\"]/span",
+    "expected": "Currently unavailable.",
+    "description": "Amazon - ASUS RTX3080 TUF"
+  },
+  {
+    "url": "https://www.amazon.ca/dp/B08HH5WF97",
+    "xPath": "//*[@id=\"availability\"]/span",
+    "expected": "Currently unavailable.",
+    "description": "Amazon - ASUS RTX3080 TUF OC"
+  },
+  {
+    "url": "https://www.amazon.ca/dp/B08HR3DPGW",
+    "xPath": "//*[@id=\"availability\"]/span",
+    "expected": "Currently unavailable.",
+    "description": "Amazon - EVGA RTX3080 FTW3 Gaming"
+  },
+  {
+    "url": "https://www.amazon.ca/dp/B08HR3Y5GQ",
+    "xPath": "//*[@id=\"availability\"]/span",
+    "expected": "Currently unavailable.",
+    "description": "Amazon - EVGA RTX3080 FTW3 Ultra Gaming"
+  },
+  {
+    "url": "https://www.amazon.ca/dp/B08HR6FMF3",
+    "xPath": "//*[@id=\"availability\"]/span",
+    "expected": "Currently unavailable.",
+    "description": "Amazon - EVGA RTX3080 XC3 Black Gaming"
+  },
+  {
+    "url": "https://www.amazon.ca/dp/B08HR4RJ3Q",
+    "xPath": "//*[@id=\"availability\"]/span",
+    "expected": "Currently unavailable.",
+    "description": "Amazon - EVGA RTX3080 XC3 Gaming Metal Backplate"
+  },
+  {
+    "url": "https://www.amazon.ca/dp/B08HR55YB5",
+    "xPath": "//*[@id=\"availability\"]/span",
+    "expected": "Currently unavailable.",
+    "description": "Amazon - EVGA RTX3080 XC3 Ultra Gaming Metal Backplate"
+  },
+  {
+    "url": "https://www.amazon.ca/dp/B08HR7SV3M",
+    "xPath": "//*[@id=\"availability\"]/span",
+    "expected": "Currently unavailable.",
+    "description": "Amazon - MSI RTX3080 Tri-Frozr 2"
+  },
+  {
+    "url": "https://www.amazon.ca/dp/B08HR5SXPS",
+    "xPath": "//*[@id=\"availability\"]/span",
+    "expected": "Currently unavailable.",
+    "description": "Amazon - MSI RTX3080 Torx Fan 3"
+  },
+  {
+    "url": "https://www.bestbuy.ca/en-ca/product/asus-tuf-gaming-nvidia-geforce-rtx-3080-10gb-gddr6x-video-card/14953248",
+    "xPath": "//*[@id=\"root\"]/div/div/div[4]/div[1]/div[2]/div[2]/div[*]/div/div[1]/div",
+    "expected": "Sold out online",
+    "description": "Best Buy - ASUS RTX3080 TUF",
+    "wait": 7
+  },
+  {
+    "url": "https://www.bestbuy.ca/en-ca/product/msi-nvidia-geforce-rtx-3080-ventus-3x-10gb-gddr6x-video-card/14950588",
+    "xPath": "//*[@id=\"root\"]/div/div/div[4]/div[1]/div[2]/div[2]/div[*]/div/div[1]/div",
+    "expected": "Sold out online",
+    "description": "Best Buy - MSI RTX3080 VENTUS 3X",
+    "wait": 7
+  },
+  {
+    "url": "https://www.bestbuy.ca/en-ca/product/evga-nvidia-geforce-rtx-3080-xc3-ultra-gaming-10gb-gddr6x-video-card/14961449",
+    "xPath": "//*[@id=\"root\"]/div/div/div[4]/div[1]/div[2]/div[2]/div[*]/div/div[1]/div",
+    "expected": "Sold out online",
+    "description": "Best Buy - EVGA RTX3080 XC3 Ultra Gaming",
+    "wait": 7
+  },
+  {
+    "url": "https://www.nvidia.com/en-ca/shop/geforce/?page=1&limit=9&locale=en-ca&search=NVIDIA%20GEFORCE%20RTX%203080",
+    "xPath": "//*[@id=\"resultsDiv\"]/div/div[1]/div[3]/div[*]/div/a",
+    "expected": "COMING SOON",
+    "description": "Nvidia - RTX 3080 FE",
+    "wait": 2
+  },
+  {
+    "url": "https://www.canadacomputers.com/product_info.php?cPath=43_557_559&item_id=181348",
+    "xPath": "//*[@id=\"pi-form\"]/div[*]/div[1]/span[1]",
+    "expected": "Not Available Online",
+    "description": "Canada Computers - MSI RTX3080 Gaming X Trio"
+  },
+  {
+    "url": "https://www.canadacomputers.com/product_info.php?cPath=43_557_559&item_id=181347",
+    "xPath": "//*[@id=\"pi-form\"]/div[*]/div[1]/span[1]",
+    "expected": "Not Available Online",
+    "description": "Canada Computers - MSI RTX3080 Ventus 3X"
+  },
+  {
+    "url": "https://www.canadacomputers.com/product_info.php?cPath=43_557_559&item_id=181416",
+    "xPath": "//*[@id=\"pi-form\"]/div[*]/div[1]/span[1]",
+    "expected": "Not Available Online",
+    "description": "Canada Computers - ASUS TUF RTX3080"
+  },
+  {
+    "url": "https://www.canadacomputers.com/product_info.php?cPath=43_557_559&item_id=181415",
+    "xPath": "//*[@id=\"pi-form\"]/div[*]/div[1]/span[1]",
+    "expected": "Not Available Online",
+    "description": "Canada Computers - ASUS TUF OC RTX3080"
+  },
+  {
+    "url": "https://www.canadacomputers.com/product_info.php?cPath=43_557_559&item_id=181798",
+    "xPath": "//*[@id=\"pi-form\"]/div[*]/div[1]/span[1]",
+    "expected": "Not Available Online",
+    "description": "Canada Computers - EVGA RTX3080 XC3 GAMING"
+  },
+  {
+    "url": "https://www.canadacomputers.com/product_info.php?cPath=43_557_559&item_id=181797",
+    "xPath": "//*[@id=\"pi-form\"]/div[*]/div[1]/span[1]",
+    "expected": "Not Available Online",
+    "description": "Canada Computers - EVGA RTX3080 XC3 BLACK GAMING"
+  },
+  {
+    "url": "https://www.canadacomputers.com/product_info.php?cPath=43_557_559&item_id=181375",
+    "xPath": "//*[@id=\"pi-form\"]/div[*]/div[1]/span[1]",
+    "expected": "Not Available Online",
+    "description": "Canada Computers - EVGA RTX3080 XC3 ULTRA GAMING"
+  },
+  {
+    "url": "https://www.canadacomputers.com/product_info.php?cPath=43_557_559&item_id=181375",
+    "xPath": "//*[@id=\"pi-form\"]/div[*]/div[1]/span[1]",
+    "expected": "Not Available Online",
+    "description": "Canada Computers - EVGA RTX3080 XC3 ULTRA GAMING"
+  }
+]

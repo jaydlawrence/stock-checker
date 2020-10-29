@@ -1,0 +1,141 @@
+[
+  {
+    "url": "https://www.newegg.com/msi-geforce-rtx-3080-rtx-3080-ventus-3x-10g-oc/p/N82E16814137598",
+    "xPath": "//*[@id=\"app\"]/div[2]/div[1]/div/div/div[1]/div[1]/div[1]",
+    "expected": "OUT OF STOCK",
+    "description": "New Egg USA - MSI RTX3080 VENTUS 3X"
+  },
+  {
+    "url": "https://www.newegg.com/msi-geforce-rtx-3080-rtx-3080-gaming-x-trio-10g/p/N82E16814137597",
+    "xPath": "//*[@id=\"app\"]/div[2]/div[1]/div/div/div[1]/div[1]/div[1]",
+    "expected": "OUT OF STOCK",
+    "description": "New Egg USA - MSI RTX3080 Gaming X Trio"
+  },
+  {
+    "url": "https://www.newegg.com/evga-geforce-rtx-3080-10g-p5-3885-kr/p/N82E16814487520",
+    "xPath": "//*[@id=\"app\"]/div[2]/div[1]/div/div/div[1]/div[1]/div[1]",
+    "expected": "OUT OF STOCK",
+    "description": "New Egg USA - EVGA RTX3080 XC3 ULTRA GAMING"
+  },
+  {
+    "url": "https://www.newegg.com/msi-geforce-rtx-3080-rtx-3080-ventus-3x-10g/p/N82E16814137600",
+    "xPath": "//*[@id=\"app\"]/div[2]/div[1]/div/div/div[1]/div[1]/div[1]",
+    "expected": "OUT OF STOCK",
+    "description": "New Egg USA - MSI RTX3080 VENTUS 3X"
+  },
+  {
+    "url": "https://www.newegg.com/asus-geforce-rtx-3080-tuf-rtx3080-o10g-gaming/p/N82E16814126452",
+    "xPath": "//*[@id=\"app\"]/div[2]/div[1]/div/div/div[1]/div[1]/div[1]",
+    "expected": "OUT OF STOCK",
+    "description": "New Egg USA - ASUS TUF RTX3080 OC"
+  },
+  {
+    "url": "https://www.newegg.com/evga-geforce-rtx-3080-10g-p5-3883-kr/p/N82E16814487521",
+    "xPath": "//*[@id=\"app\"]/div[2]/div[1]/div/div/div[1]/div[1]/div[1]",
+    "expected": "OUT OF STOCK",
+    "description": "New Egg USA - EVGA GeForce RTX 3080 XC3 GAMING"
+  },
+  {
+    "url": "https://www.newegg.com/asus-geforce-rtx-3080-tuf-rtx3080-10g-gaming/p/N82E16814126453",
+    "xPath": "//*[@id=\"app\"]/div[2]/div[1]/div/div/div[1]/div[1]/div[1]",
+    "expected": "OUT OF STOCK",
+    "description": "New Egg USA - ASUS TUF RTX3080"
+  },
+  {
+    "url": "https://www.newegg.com/evga-geforce-rtx-3080-10g-p5-3881-kr/p/N82E16814487522",
+    "xPath": "//*[@id=\"app\"]/div[2]/div[1]/div/div/div[1]/div[1]/div[1]",
+    "expected": "OUT OF STOCK",
+    "description": "New Egg USA - EVGA RTX3080 XC3 BLACK GAMING"
+  },
+  {
+    "url": "https://store.asus.com/us/item/202009AM160000001/ASUS+TUF+Gaming+NVIDIA+GeForce+RTX+3080+OC+Edition+Graphics+Card+%28PCIe+4.0%2C+10GB+GDDR6X%2C+HDMI+2.1%2C+DisplayPort+1.4a%2C+Dual+ball+Fan+Bearings%2C+Military-grade+Certification%2C+GPU+Tweak+II%29",
+    "xPath": "//*[@id=\"off_sale\"]",
+    "expected": "Temporarily Sold Out",
+    "description": "Asus USA - ASUS RTX3080 TUF"
+  },
+  {
+    "url": "https://www.bestbuy.com/site/msi-geforce-rtx-3080-ventus-3x-10g-oc-bv-gddr6x-pci-express-4-0-graphic-card-black-silver/6430175.p?skuId=6430175",
+    "xPath": "/html/body/div[3]/main/div[2]/div[3]/div[2]/div/div/div[*]/div/div[@class=\"fulfillment-add-to-cart-button\"]",
+    "expected": "Sold Out",
+    "description": "Best Buy USA - MSI RTX3080 VENTUS 3X",
+    "wait": 3
+  },
+  {
+    "url": "https://www.bestbuy.com/site/evga-geforce-rtx-3080-xc3-gaming-10gb-gddr6x-pci-express-4-0-graphics-card/6436194.p?skuId=6436194",
+    "xPath": "/html/body/div[3]/main/div[2]/div[3]/div[2]/div/div/div[7]/div[1]",
+    "expected": "Sold Out",
+    "description": "Best Buy USA - EVGA RTX3080 XC3 GAMING",
+    "wait": 3
+  },
+  {
+    "url": "https://www.bestbuy.com/site/evga-geforce-rtx-3080-xc3-black-gaming-10gb-gddr6x-pci-express-4-0-graphics-card/6432399.p?skuId=6432399",
+    "xPath": "/html/body/div[3]/main/div[2]/div[3]/div[2]/div/div/div[7]/div[1]",
+    "expected": "Sold Out",
+    "description": "Best Buy USA - EVGA RTX3080 XC3 GAMING BLACK",
+    "wait": 3
+  },
+  {
+    "url": "https://www.bestbuy.com/site/nvidia-geforce-rtx-3080-10gb-gddr6x-pci-express-4-0-graphics-card-titanium-and-black/6429440.p?skuId=6429440",
+    "xPath": "/html/body/div[3]/main/div[2]/div[3]/div[2]/div/div/div[7]/div[1]",
+    "expected": "Sold Out",
+    "description": "Best Buy USA - NVIDIA RTX3080 FE",
+    "wait": 3
+  },
+  {
+    "url": "https://www.amazon.com/ASUS-Graphics-DisplayPort-Military-Grade-Certification/dp/B08HH5WF97?ref_=ast_sto_dp",
+    "xPath": "//*[@id=\"availability\"]/span",
+    "expected": "Currently unavailable.",
+    "description": "Amazon USA - ASUS RTX3080 TUF OC"
+  },
+  {
+    "url": "https://www.amazon.com/ASUS-Graphics-DisplayPort-Military-Grade-Certification/dp/B08HHDP9DW?ref_=ast_sto_dp",
+    "xPath": "//*[@id=\"availability\"]/span",
+    "expected": "Currently unavailable.",
+    "description": "Amazon USA - ASUS RTX3080 TUF"
+  },
+  {
+    "url": "https://www.amazon.com/MSI-GeForce-RTX-3080-10G/dp/B08HR5SXPS?ref_=ast_sto_dp",
+    "xPath": "//*[@id=\"availability\"]/span",
+    "expected": "Currently unavailable.",
+    "description": "Amazon USA - MSI RTX3080 GAMING Torx Fan 3"
+  },
+  {
+    "url": "https://www.amazon.com/MSI-GeForce-RTX-3080-10G/dp/B08HR7SV3M?ref_=ast_sto_dp",
+    "xPath": "//*[@id=\"availability\"]/span",
+    "expected": "Currently unavailable.",
+    "description": "Amazon USA - MSI RTX3080 GAMING Tri-Frozr 2"
+  },
+  {
+    "url": "https://www.amazon.com/EVGA-10G-P5-3883-KR-GeForce-Cooling-Backplate/dp/B08HR4RJ3Q?ref_=ast_sto_dp",
+    "xPath": "//*[@id=\"availability\"]/span",
+    "expected": "Currently unavailable.",
+    "description": "Amazon USA - EVGA RTX3080 XC3 GAMING"
+  },
+  {
+    "url": "https://www.amazon.com/EVGA-10G-P5-3881-KR-GeForce-GAMING-Cooling/dp/B08HR6FMF3?ref_=ast_sto_dp",
+    "xPath": "//*[@id=\"availability\"]/span",
+    "expected": "Currently unavailable.",
+    "description": "Amazon USA - EVGA RTX3080 XC3 BLACK GAMING"
+  },
+  {
+    "url": "https://www.bhphotovideo.com/c/product/1593649-REG/asus_tuf_rtx3080_10g_gaming_tuf_gaming_geforce_rtx.html/DFF/d10-v21-t1-x1071373/SID/103810X1560435Xe787bcce40168e0f3cbf6aa26dda7db3",
+    "xPath": "//*[@id=\"bh-app\"]/section/div/div[2]/div[4]/div/div[2]/div/div/div[*]/div[1]/span",
+    "expected": "New Item - Coming Soon",
+    "description": "B & H Photo - ASUS RTX3080 TUF",
+    "wait": 3
+  },
+  {
+    "url": "https://www.bhphotovideo.com/c/product/1593650-REG/asus_tuf_rtx3080_o10g_gaming_tuf_gaming_geforce_rtx.html/DFF/d10-v21-t1-x1071374/SID/103810X1560435X757058120c2475341fda7e10d82c8f85",
+    "xPath": "//*[@id=\"bh-app\"]/section/div/div[2]/div[4]/div/div[2]/div/div/div[*]/div[1]/span",
+    "expected": "New Item - Coming Soon",
+    "description": "B & H Photo - ASUS RTX3080 TUF OC",
+    "wait": 3
+  },
+  {
+    "url": "https://www.bhphotovideo.com/c/product/1593646-REG/msi_geforce_rtx_3080_ventus.html/DFF/d10-v21-t1-x1071370/SID/103810X1560435X35ea38a594942af5aebdcf528356cc12",
+    "xPath": "//*[@id=\"bh-app\"]/section/div/div[2]/div[4]/div/div[2]/div/div/div[*]/div[1]/span",
+    "expected": "New Item - Coming Soon",
+    "description": "B & H Photo - MSI RTX3080 VENTUS 3X",
+    "wait": 3
+  }
+]
