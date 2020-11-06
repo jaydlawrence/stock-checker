@@ -2,56 +2,83 @@
   {
     "url": "https://www.newegg.ca/asus-geforce-rtx-3080-tuf-rtx3080-10g-gaming/p/N82E16814126453",
     "xPath": "//*[@id=\"app\"]/div[2]/div[1]/div/div/div[1]/div[1]/div[1]",
-    "expected": "OUT OF STOCK",
+    "expected": [
+      "CURRENTLY SOLD OUT",
+      "OUT OF STOCK"
+    ],
     "description": "New Egg - ASUS RTX3080 TUF"
   },
   {
     "url": "https://www.newegg.ca/asus-geforce-rtx-3080-tuf-rtx3080-o10g-gaming/p/N82E16814126452",
     "xPath": "//*[@id=\"app\"]/div[2]/div[1]/div/div/div[1]/div[1]/div[1]",
-    "expected": "OUT OF STOCK",
+    "expected": [
+      "CURRENTLY SOLD OUT",
+      "OUT OF STOCK"
+    ],
     "description": "New Egg - ASUS RTX3080 TUF OC"
   },
   {
     "url": "https://www.newegg.ca/evga-geforce-rtx-3080-10g-p5-3883-kr/p/N82E16814487521",
     "xPath": "//*[@id=\"app\"]/div[2]/div[1]/div/div/div[1]/div[1]/div[1]",
-    "expected": "OUT OF STOCK",
+    "expected": [
+      "CURRENTLY SOLD OUT",
+      "OUT OF STOCK"
+    ],
     "description": "New Egg - EVGA RTX3080 XC3 GAMING"
+  },
+  {
+    "url": "https://www.newegg.ca/evga-geforce-rtx-3080-10g-p5-3881-kr/p/N82E16814487522",
+    "xPath": "//*[@id=\"app\"]/div[2]/div[1]/div/div/div[1]/div[1]/div[1]",
+    "expected": [
+      "CURRENTLY SOLD OUT",
+      "OUT OF STOCK"
+    ],
+    "description": "New Egg - EVGA RTX3080 XC3 BLACK GAMING"
   },
   {
     "url": "https://www.newegg.ca/msi-geforce-rtx-3080-rtx-3080-gaming-x-trio-10g/p/N82E16814137597",
     "xPath": "//*[@id=\"app\"]/div[2]/div[1]/div/div/div[1]/div[1]/div[1]",
-    "expected": "OUT OF STOCK",
+    "expected": [
+      "CURRENTLY SOLD OUT",
+      "OUT OF STOCK"
+    ],
     "description": "New Egg - MSI RTX3080 GAMING X TRIO"
   },
   {
     "url": "https://www.newegg.ca/msi-geforce-rtx-3080-rtx-3080-ventus-3x-10g-oc/p/N82E16814137598",
     "xPath": "//*[@id=\"app\"]/div[2]/div[1]/div/div/div[1]/div[1]/div[1]",
-    "expected": "OUT OF STOCK",
+    "expected": [
+      "CURRENTLY SOLD OUT",
+      "OUT OF STOCK"
+    ],
     "description": "New Egg - MSI RTX3080 VENTUS 3X OC"
   },
   {
     "url": "https://www.newegg.ca/msi-geforce-rtx-3080-rtx-3080-ventus-3x-10g/p/N82E16814137600",
     "xPath": "//*[@id=\"app\"]/div[2]/div[1]/div/div/div[1]/div[1]/div[1]",
-    "expected": "OUT OF STOCK",
+    "expected": [
+      "CURRENTLY SOLD OUT",
+      "OUT OF STOCK"
+    ],
     "description": "New Egg - MSI RTX3080 VENTUS 3X"
   },
   {
     "url": "https://www.newegg.ca/evga-geforce-rtx-3080-10g-p5-3895-kr/p/N82E16814487519",
     "xPath": "//*[@id=\"app\"]/div[2]/div[1]/div/div/div[1]/div[1]/div[1]",
-    "expected": "OUT OF STOCK",
+    "expected": [
+      "CURRENTLY SOLD OUT",
+      "OUT OF STOCK"
+    ],
     "description": "New Egg - EVGA RTX3080 FTW3 GAMING"
   },
   {
     "url": "https://www.newegg.ca/evga-geforce-rtx-3080-10g-p5-3897-kr/p/N82E16814487518",
     "xPath": "//*[@id=\"app\"]/div[2]/div[1]/div/div/div[1]/div[1]/div[1]",
-    "expected": "OUT OF STOCK",
+    "expected": [
+      "CURRENTLY SOLD OUT",
+      "OUT OF STOCK"
+    ],
     "description": "New Egg - EVGA RTX3080 FTW3 ULTRA GAMING"
-  },
-  {
-    "url": "https://www.newegg.ca/evga-geforce-rtx-3080-10g-p5-3881-kr/p/N82E16814487522",
-    "xPath": "//*[@id=\"app\"]/div[2]/div[1]/div/div/div[1]/div[1]/div[1]",
-    "expected": "OUT OF STOCK",
-    "description": "New Egg - EVGA RTX3080 XC3 BLACK GAMING"
   },
   {
     "url": "https://www.bhphotovideo.com/c/product/1593649-REG/asus_tuf_rtx3080_10g_gaming_tuf_gaming_geforce_rtx.html/DFF/d10-v21-t1-x1071373/SID/103810X1560435Xe787bcce40168e0f3cbf6aa26dda7db3",

@@ -5,6 +5,11 @@ function sleep(wait) {
   return new Promise((resolve) => setTimeout(resolve, wait * 1000));
 }
 
+const isMatch = (actual, expected) => {
+  if (Array.isArray(expected)) return expected.includes(actual);
+  return actual === expected;
+};
+
 const checkSite = async (site, driver) => {
   const {
     url, xPath, expected, wait = 1, description,
@@ -13,7 +18,7 @@ const checkSite = async (site, driver) => {
   await sleep(wait);
   try {
     const value = await driver.findElement(web.By.xpath(xPath)).getText();
-    if (String(value) !== expected) {
+    if (!isMatch(String(value), expected)) {
       await notify({ site, message: `${description} was expecting "${expected}" but got "${value}"` });
     }
   } catch (e) {

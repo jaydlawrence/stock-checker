@@ -17,7 +17,7 @@ Fill out the details for the pages that you want to monitor:
 
 - url: url for page
 - xPath: xpath for content on page to monitor
-- expected: expected text value of content to be compared against
+- expected: expected text value of content to be compared against. This can also be an array of expected test values to check against.
 - description: human readable description to be used in notifications
 - wait: [Optional] this is used to wait longer on sites that take a while to async load in their stock data, like Best Buy
 
