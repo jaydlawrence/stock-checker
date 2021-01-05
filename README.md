@@ -79,6 +79,27 @@ Here is an article from Google about how to set that up:
 
 https://support.google.com/accounts/answer/185833
 
+## Installing locally
+
+This package needs to be cloned/downloaded locally to run.
+
+```
+git clone git@github.com:jaydlawrence/stock-checker.git
+```
+
+Install all the dependencies with
+
+```
+npm install
+```
+
+*Note:* if you get errors about npm vulnerabilities, you might need to install chromedriver first.
+
+```
+npm install chromedriver
+```
+
+
 ## Testing
 
 To test locally, run:
@@ -94,7 +115,7 @@ run with
 npx check-stock
 ```
 
-## Installing and running
+## Running
 
 To run this with a cron, the script needs to be installed:
 
