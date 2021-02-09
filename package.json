@@ -9,13 +9,13 @@
   "author": "Jayd Lawrence",
   "license": "ISC",
   "dependencies": {
-    "chromedriver": "^86.0.0",
+    "chromedriver": "^88.0.0",
     "gmail-send": "^1.8.10",
     "pushover-notifications": "^1.2.2",
     "selenium-webdriver": "^4.0.0-alpha.7"
   },
   "bin": {
-    "check-stock": "./bin/index.js"
+    "check-stock": "bin/index.js"
   },
   "devDependencies": {
     "eslint": "7.2.0",
