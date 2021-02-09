@@ -6,6 +6,8 @@ I wrote a [blog post](https://jaydlawrence.dev/check-if-items-are-in-stock-onlin
 
 https://jaydlawrence.dev/check-if-items-are-in-stock-online-for-free/
 
+**NOTE:** This script is designed to run on UNIX type OSes (as they handle running NodeJs better) and people have reported having issues running it on Windows. I am looking for a way to make this easy to deploy and run on Windows, if you have some ideas, feel free to get in contact or even better, submit a PR.
+
 ## Setup
 
 ### Sites
@@ -91,12 +93,6 @@ Install all the dependencies with
 
 ```
 npm install
-```
-
-*Note:* if you get errors about npm vulnerabilities, you might need to install chromedriver first.
-
-```
-npm install chromedriver
 ```
 
 
