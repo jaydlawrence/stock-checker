@@ -12,7 +12,10 @@ if (sites && process.argv[2]) {
 }
 
 (async () => {
-  const launchOptions = { headless: true };
+  const launchOptions = {
+    headless: true,
+    args: ['--no-sandbox'],
+  };
 
   const browser = await puppeteer.launch(launchOptions);
   const page = await browser.newPage();
