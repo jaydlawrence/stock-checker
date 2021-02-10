@@ -1,4 +1,5 @@
 const { notify } = require('./notify');
+const config = require('../config.json');
 
 function sleep(wait) {
   return new Promise((resolve) => setTimeout(resolve, wait * 1000));
@@ -24,7 +25,9 @@ const checkSite = async (site, page) => {
       await notify({ site, message: `${description} was expecting "${expected}" but got "${value}"` });
     }
   } catch (e) {
-    await notify({ site, message: `${description} could not reach the node specified` });
+    if (config && config.notifyOnNodeNotFound) {
+      await notify({ site, message: `${description} could not reach the node specified` });
+    }
   }
 };
 

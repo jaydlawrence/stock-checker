@@ -3,12 +3,16 @@
 const puppeteer = require('puppeteer');
 const sites = require('../sites.json');
 const { checkSite } = require('../src/checkSite');
+const config = require('../config.json');
 
 (async () => {
-  const launchOptions = {
-    headless: true,
-    args: ['--no-sandbox'],
-  };
+  let launchOptions = { headless: false };
+  if (config && config.runHeadless) {
+    launchOptions = {
+      headless: true,
+      args: ['--no-sandbox'],
+    };
+  }
 
   const browser = await puppeteer.launch(launchOptions);
   const page = await browser.newPage();

@@ -1,4 +1,6 @@
 {
+  "runHeadless": true,
+  "notifyOnNodeNotFound": true,
   "pushoverApiKey": "",
   "pushoverUserKey": "",
   "pushoverEnabled": false,

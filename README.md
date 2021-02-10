@@ -48,6 +48,22 @@ For example:
 
 Copy `config.json.template` to `config.json` and fill out the required fields.
 
+#### `runHeadless`
+
+*Default value: true*
+
+The `runHeadless` parameter determines whether or not the `puppeteer` web tool runs headless. In headless mode it will not popping up to show the websites as it visits them.
+
+**Note: If running inside of docker, it is recommended to leave this setting as true**
+
+#### `notifyOnNodeNotFound`
+
+*Default value: true*
+
+The `notifyOnNodeNotFound` parameter determines whether the script will send notifications when it is unable to find the configured node using the xPath that was configured for that site using the `sites.json` file.
+
+**Note: disabling this will hide any errors with the xPath or page loading, for example if the page layout changes in the future**
+
 See the notifications section next for info on how to set up your preferred notification option.
 
 ### Notifications
@@ -81,7 +97,10 @@ Here is an article from Google about how to set that up:
 
 https://support.google.com/accounts/answer/185833
 
-## Installing locally
+## Installing and Running locally (difficult on Windows, see Docker installation for Windows)
+
+
+### Installing
 
 This package needs to be cloned/downloaded locally to run.
 
@@ -96,7 +115,7 @@ npm install
 ```
 
 
-## Testing
+### Testing
 
 To test locally, run:
 
@@ -111,7 +130,7 @@ run with
 npx check-stock
 ```
 
-## Running
+### Scheduling
 
 To run this with a cron, the script needs to be installed:
 
@@ -140,6 +159,104 @@ Then add something like the following:
 */15 * * * * /<replace_with_path_to_project>/stock-checker/run.sh
 ```
 
-If you are on Windows, something like Windows Task Scheduler should be able to help.
 
-https://www.windowscentral.com/how-create-automated-task-using-task-scheduler-windows-10
+## Installing and Running with docker (cross-platform option)
+
+### Downloading the code
+
+This package needs to be cloned/downloaded locally to run.
+
+```
+git clone git@github.com:jaydlawrence/stock-checker.git
+```
+OR
+
+On github, click the download link to download the source code instead.
+
+### Install docker
+
+Install the docker version relevant to your operating system.
+
+Most OSes come with their own package manager, but it might be easier to just download it from [the docker website](https://www.docker.com/products/docker-desktop):
+https://www.docker.com/products/docker-desktop
+
+**Note: If installing on windows, make sure to check the option that includes the WSL2 components**
+
+### Running
+
+Docker needs to create a new image with some specific data for this project, including the custom `config.json` and `sites.json` files.
+
+To create a new docker image, run the following command in the root folder of the project.
+
+```
+docker build -t stock-checker .
+```
+
+This tells docker to make a new image called `stock-checker`. In the process it will automatically use the `Dockerfile` in this directory to do what it needs to, to build the image.
+
+For windows, this command has been bundled into the `docker-image-update.bat` batch file. So instead of running the docker command directly, this batch file could be used instead.
+
+**Note: This command needs to be rerun every time either the `config.json` or `sites.json` files are changed to rebuild the image**
+
+Once the image has been created, a docker container can be run with that image that will run the stock checking script.
+
+```
+docker run stock-checker
+```
+
+This is the command that will be run every time the configured sites need to be checked for stock.
+
+For windows, this command has been bundled into the `docker-run.bat` batch file. So instead of running the docker command directly, this batch file could be used instead and this is the file to be used for scheduling on Windows.
+
+### Scheduling on Windows
+
+On Windows, the Task Scheduler is the best way to run the docker command that runs the script.
+
+To run the docker from the Task Scheduler, a good idea is to add the docker command to a batch file and have the Task Scheduler run tha batch file at different intervals.
+
+This project already has 2 batch files that can be used, but feel free to edit them or create your own. The files just run the above docker commands to create the image and to then run the docker command in a container against that image.
+
+The batch file to schedule is `docker-run.bat` which does the docker run command.
+
+Set up the Task Scheduler to run this batch file as often as you prefer and trigger it on login.
+The only catch is that the docker service already has to be running.
+
+My suggestion to get around this is to have docker scheduled as a startup app or with the scheduler as an "on Login" task and then add a 5 minute delay from login on the batch script to run the stock checker to make sure that the docker service is running. 
+
+### Scheduling (UNIX based OSes)
+
+The docker run command can be scheduled to run using the cron tab if you are on a unix environment.
+
+To configure the crontab, run:
+
+```
+crontab -e
+```
+
+Then add something like the following:
+
+```
+# run script every 15 minutes
+*/15 * * * * <docker_path> run stock-checker
+```
+
+To get your docker path, use the `which` command
+
+```
+which docker
+```
+This outputs something like `/usr/local/bin/docker` 
+
+On MacOs the cron might look like:
+```
+*/15 * * * * /usr/local/bin/docker run stock-checker
+```
+
+A useful tool for debugging this step if it doesn't seem to be working is to pass the output of the script to a file to see if it is failing.
+
+
+Something like
+```
+*/15 * * * * /usr/local/bin/docker run stock-checker >> /user 2>&1 /Users/<userName>/log.txt
+```
+
