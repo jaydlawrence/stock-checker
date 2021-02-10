@@ -19,7 +19,7 @@ const checkSite = async (site, page) => {
     const elHandle = await page.$x(xPath);
     const text = await page.evaluate((el) => el.textContent, elHandle[0]);
 
-    const value = String(text).trim();
+    const value = String(text).replace(/^\s+|\s+$/g, '');
     if (!isMatch(value, expected)) {
       await notify({ site, message: `${description} was expecting "${expected}" but got "${value}"` });
     }
