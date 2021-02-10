@@ -1,13 +1,6 @@
 const Push = require('pushover-notifications');
 const gmailSetup = require('gmail-send');
-const fs = require('fs');
-let config = require('../config.json');
-
-if (config && process.argv[3]) {
-  const configPath = process.argv[3];
-  const data = fs.readFileSync(configPath).toString(); /* open the file as string */
-  config = JSON.parse(data);
-}
+const config = require('../config.json');
 
 const push = new Push({
   user: (config && config.pushoverUserKey) || '',

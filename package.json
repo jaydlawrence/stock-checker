@@ -9,7 +9,6 @@
   "author": "Jayd Lawrence",
   "license": "ISC",
   "dependencies": {
-    "fs": "0.0.1-security",
     "gmail-send": "^1.8.10",
     "puppeteer": "^7.0.4",
     "pushover-notifications": "^1.2.2"

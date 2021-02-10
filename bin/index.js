@@ -1,15 +1,8 @@
 #!/usr/bin/env node
 
 const puppeteer = require('puppeteer');
-const fs = require('fs');
-let sites = require('../sites.json');
+const sites = require('../sites.json');
 const { checkSite } = require('../src/checkSite');
-
-if (sites && process.argv[2]) {
-  const sitesPath = process.argv[2];
-  const data = fs.readFileSync(sitesPath).toString(); /* open the file as string */
-  sites = JSON.parse(data);
-}
 
 (async () => {
   const launchOptions = {
