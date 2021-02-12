@@ -260,3 +260,8 @@ Something like
 */15 * * * * /usr/local/bin/docker run stock-checker >> /user 2>&1 /Users/<userName>/log.txt
 ```
 
+## Pan Handling
+
+If you appreciate this script enough to support me, feel free to send me a tip.
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/jaydpay)
