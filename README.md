@@ -260,7 +260,7 @@ Something like
 */15 * * * * /usr/local/bin/docker run stock-checker >> /user 2>&1 /Users/<userName>/log.txt
 ```
 
-## Pan Handling
+## Panhandling
 
 If you appreciate this script enough to support me, feel free to send me a tip.
 
