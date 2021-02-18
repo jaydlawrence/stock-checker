@@ -83,37 +83,37 @@
   },
   {
     "url": "https://www.amazon.com/ASUS-Graphics-DisplayPort-Military-Grade-Certification/dp/B08HH5WF97?ref_=ast_sto_dp",
-    "xPath": "//*[@id=\"availability\"]/span",
+    "xPath": "//*[@id=\"availability\"]/span/text()",
     "expected": "Currently unavailable.",
     "description": "Amazon USA - ASUS RTX3080 TUF OC"
   },
   {
     "url": "https://www.amazon.com/ASUS-Graphics-DisplayPort-Military-Grade-Certification/dp/B08HHDP9DW?ref_=ast_sto_dp",
-    "xPath": "//*[@id=\"availability\"]/span",
+    "xPath": "//*[@id=\"availability\"]/span/text()",
     "expected": "Currently unavailable.",
     "description": "Amazon USA - ASUS RTX3080 TUF"
   },
   {
     "url": "https://www.amazon.com/MSI-GeForce-RTX-3080-10G/dp/B08HR5SXPS?ref_=ast_sto_dp",
-    "xPath": "//*[@id=\"availability\"]/span",
+    "xPath": "//*[@id=\"availability\"]/span/text()",
     "expected": "Currently unavailable.",
     "description": "Amazon USA - MSI RTX3080 GAMING Torx Fan 3"
   },
   {
     "url": "https://www.amazon.com/MSI-GeForce-RTX-3080-10G/dp/B08HR7SV3M?ref_=ast_sto_dp",
-    "xPath": "//*[@id=\"availability\"]/span",
+    "xPath": "//*[@id=\"availability\"]/span/text()",
     "expected": "Currently unavailable.",
     "description": "Amazon USA - MSI RTX3080 GAMING Tri-Frozr 2"
   },
   {
     "url": "https://www.amazon.com/EVGA-10G-P5-3883-KR-GeForce-Cooling-Backplate/dp/B08HR4RJ3Q?ref_=ast_sto_dp",
-    "xPath": "//*[@id=\"availability\"]/span",
+    "xPath": "//*[@id=\"availability\"]/span/text()",
     "expected": "Currently unavailable.",
     "description": "Amazon USA - EVGA RTX3080 XC3 GAMING"
   },
   {
     "url": "https://www.amazon.com/EVGA-10G-P5-3881-KR-GeForce-GAMING-Cooling/dp/B08HR6FMF3?ref_=ast_sto_dp",
-    "xPath": "//*[@id=\"availability\"]/span",
+    "xPath": "//*[@id=\"availability\"]/span/text()",
     "expected": "Currently unavailable.",
     "description": "Amazon USA - EVGA RTX3080 XC3 BLACK GAMING"
   },

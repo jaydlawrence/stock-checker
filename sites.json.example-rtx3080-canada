@@ -103,75 +103,75 @@
   },
   {
     "url": "https://www.amazon.ca/dp/B08HHDP9DW",
-    "xPath": "//*[@id=\"availability\"]/span",
+    "xPath": "//*[@id=\"availability\"]/span/text()",
     "expected": "Currently unavailable.",
     "description": "Amazon - ASUS RTX3080 TUF"
   },
   {
     "url": "https://www.amazon.ca/dp/B08HH5WF97",
-    "xPath": "//*[@id=\"availability\"]/span",
+    "xPath": "//*[@id=\"availability\"]/span/text()",
     "expected": "Currently unavailable.",
     "description": "Amazon - ASUS RTX3080 TUF OC"
   },
   {
     "url": "https://www.amazon.ca/dp/B08HR3DPGW",
-    "xPath": "//*[@id=\"availability\"]/span",
+    "xPath": "//*[@id=\"availability\"]/span/text()",
     "expected": "Currently unavailable.",
     "description": "Amazon - EVGA RTX3080 FTW3 Gaming"
   },
   {
     "url": "https://www.amazon.ca/dp/B08HR3Y5GQ",
-    "xPath": "//*[@id=\"availability\"]/span",
+    "xPath": "//*[@id=\"availability\"]/span/text()",
     "expected": "Currently unavailable.",
     "description": "Amazon - EVGA RTX3080 FTW3 Ultra Gaming"
   },
   {
     "url": "https://www.amazon.ca/dp/B08HR6FMF3",
-    "xPath": "//*[@id=\"availability\"]/span",
+    "xPath": "//*[@id=\"availability\"]/span/text()",
     "expected": "Currently unavailable.",
     "description": "Amazon - EVGA RTX3080 XC3 Black Gaming"
   },
   {
     "url": "https://www.amazon.ca/dp/B08HR4RJ3Q",
-    "xPath": "//*[@id=\"availability\"]/span",
+    "xPath": "//*[@id=\"availability\"]/span/text()",
     "expected": "Currently unavailable.",
     "description": "Amazon - EVGA RTX3080 XC3 Gaming Metal Backplate"
   },
   {
     "url": "https://www.amazon.ca/dp/B08HR55YB5",
-    "xPath": "//*[@id=\"availability\"]/span",
+    "xPath": "//*[@id=\"availability\"]/span/text()",
     "expected": "Currently unavailable.",
     "description": "Amazon - EVGA RTX3080 XC3 Ultra Gaming Metal Backplate"
   },
   {
     "url": "https://www.amazon.ca/dp/B08HR7SV3M",
-    "xPath": "//*[@id=\"availability\"]/span",
+    "xPath": "//*[@id=\"availability\"]/span/text()",
     "expected": "Currently unavailable.",
     "description": "Amazon - MSI RTX3080 Tri-Frozr 2"
   },
   {
     "url": "https://www.amazon.ca/dp/B08HR5SXPS",
-    "xPath": "//*[@id=\"availability\"]/span",
+    "xPath": "//*[@id=\"availability\"]/span/text()",
     "expected": "Currently unavailable.",
     "description": "Amazon - MSI RTX3080 Torx Fan 3"
   },
   {
     "url": "https://www.bestbuy.ca/en-ca/product/asus-tuf-gaming-nvidia-geforce-rtx-3080-10gb-gddr6x-video-card/14953248",
-    "xPath": "//*[@id=\"root\"]/div/div/div[4]/div[1]/div[2]/div[2]/div[*]/div/div[1]/div",
+    "xPath": "//div[contains(concat(' ',normalize-space(@class),' '),'x-pdp-availability-online')]",
     "expected": "Sold out online",
     "description": "Best Buy - ASUS RTX3080 TUF",
     "wait": 7
   },
   {
     "url": "https://www.bestbuy.ca/en-ca/product/msi-nvidia-geforce-rtx-3080-ventus-3x-10gb-gddr6x-video-card/14950588",
-    "xPath": "//*[@id=\"root\"]/div/div/div[4]/div[1]/div[2]/div[2]/div[*]/div/div[1]/div",
+    "xPath": "//div[contains(concat(' ',normalize-space(@class),' '),'x-pdp-availability-online')]",
     "expected": "Sold out online",
     "description": "Best Buy - MSI RTX3080 VENTUS 3X",
     "wait": 7
   },
   {
     "url": "https://www.bestbuy.ca/en-ca/product/evga-nvidia-geforce-rtx-3080-xc3-ultra-gaming-10gb-gddr6x-video-card/14961449",
-    "xPath": "//*[@id=\"root\"]/div/div/div[4]/div[1]/div[2]/div[2]/div[*]/div/div[1]/div",
+    "xPath": "//div[contains(concat(' ',normalize-space(@class),' '),'x-pdp-availability-online')]",
     "expected": "Sold out online",
     "description": "Best Buy - EVGA RTX3080 XC3 Ultra Gaming",
     "wait": 7

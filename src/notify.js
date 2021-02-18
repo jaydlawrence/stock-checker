@@ -3,14 +3,14 @@ const gmailSetup = require('gmail-send');
 const config = require('../config.json');
 
 const push = new Push({
-  user: config?.pushoverUserKey || '',
-  token: config?.pushoverApiKey || '',
+  user: (config && config.pushoverUserKey) || '',
+  token: (config && config.pushoverApiKey) || '',
 });
 
 const gmailSend = gmailSetup({
-  user: config?.gmailUser || '',
-  pass: config?.gmailPassword || '',
-  to: config?.gmailTo || '',
+  user: (config && config.gmailUser) || '',
+  pass: (config && config.gmailPassword) || '',
+  to: (config && config.gmailTo) || '',
 });
 
 const pushoverNotify = async ({ title, message, url }) => push.send(
@@ -39,10 +39,10 @@ const notify = async ({ site, message }) => {
     message,
     url,
   };
-  if (config?.pushoverEnabled) {
+  if (config && config.pushoverEnabled) {
     await pushoverNotify(payload);
   }
-  if (config?.gmailEnabled) {
+  if (config && config.gmailEnabled) {
     await gmailNotify(payload);
   }
 };
