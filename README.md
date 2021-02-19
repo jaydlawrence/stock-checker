@@ -162,6 +162,10 @@ Then add something like the following:
 
 ## Installing and Running with docker (cross-platform option)
 
+See the [related blog post](https://jaydlawrence.dev/stock-checker-update-run-it-on-windows/) for more detailed instructions on installing on Windows
+
+https://jaydlawrence.dev/stock-checker-update-run-it-on-windows/
+
 ### Downloading the code
 
 This package needs to be cloned/downloaded locally to run.
