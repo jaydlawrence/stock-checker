@@ -264,6 +264,34 @@ Something like
 */15 * * * * /usr/local/bin/docker run stock-checker >> /user 2>&1 /Users/<userName>/log.txt
 ```
 
+## Debugging
+
+If you run into errors using the Batch scripts, I recommend that you run the docker commands directly from the terminal (PowerShell or command prompt) as it will leave the errors up for debugging purposes.
+
+### Error: self signed certificate in certificate chain
+
+![Error: self signed certificate in certificate chain](https://github.com/jaydlawrence/stock-checker/blob/master/media/self-signed-certificate.png?raw=true)
+
+Someone trying to use this script was running into this issue and I was unable to reproduce the error on my side, but I was able to help remotely debug the issue and find a work around.
+
+This can be bypassed by running NodeJs with the environment variable:
+
+```
+NODE_TLS_REJECT_UNAUTHORIZED='0'
+```
+For example
+```
+NODE_TLS_REJECT_UNAUTHORIZED='0' npx check-stock
+```
+
+If you are using the docker method of running this script, you can simply uncomment the `ENV` line in the `Dockerfile` to enable that environmental variable.
+
+```
+ENV NODE_TLS_REJECT_UNAUTHORIZED "0"
+```
+
+
+
 ## Panhandling
 
 If you appreciate this script enough to support me, feel free to send me a tip.
