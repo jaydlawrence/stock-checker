@@ -14,6 +14,7 @@ const checkSite = async (site, page) => {
   const {
     url, xPath, expected, wait = 1, description,
   } = site;
+  await page.setUserAgent('Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36');
   await page.goto(url);
   await sleep(wait);
   try {
