@@ -21,8 +21,11 @@ const checkSite = async (site, page) => {
 
     for (const xpath of clickXPaths) {
       const [button] = await page.$x(xpath);
-      await button.click();
-      await sleep(wait);
+      if (typeof button !== 'undefined') {
+        console.debug("Clicking on " + xpath);
+        await button.click();
+        await sleep(wait);
+      }
     }
 
     const elHandle = await page.$x(xPath);
